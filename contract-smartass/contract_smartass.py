@@ -366,7 +366,7 @@ class FirstContactData():
         self.best_combo = []
         self.num_combos_checked = []
 
-        excluded = CONTRACT_ARTIFACTS.copy()
+        excluded = set(CONTRACT_ARTIFACTS.copy())
 
         if not use_deflector:
             excluded.remove("Deflector")
@@ -383,13 +383,13 @@ class FirstContactData():
             self.num_combos_checked.append(num_combos_checked)
 
             redo = False
-            used_excluded = []
+            used_excluded = set()
 
             for c in self.best_combo:
                 if c.name not in excluded:
                     redo = True
 
-                used_excluded.append(c.name)
+                used_excluded.add(c.name)
 
             if self.best_rate <= last_best_rate:
                 redo = False
