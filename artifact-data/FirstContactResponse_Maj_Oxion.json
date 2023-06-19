@@ -1,0 +1,2808 @@
+{
+  "backup": {
+    "artifactsDb": {
+      "inventoryItems": [
+        {
+          "itemId": "27",
+          "artifact": {
+            "spec": {
+              "name": "GOLD_METEORITE",
+              "level": "LESSER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 209.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "43",
+          "artifact": {
+            "spec": {
+              "name": "PUZZLE_CUBE",
+              "level": "LESSER",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICAkPO_o6cJDA"
+        },
+        {
+          "itemId": "61",
+          "artifact": {
+            "spec": {
+              "name": "PROPHECY_STONE_FRAGMENT",
+              "level": "INFERIOR",
+              "rarity": "COMMON",
+              "egg": "EDIBLE"
+            }
+          },
+          "quantity": 1106.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "66",
+          "artifact": {
+            "spec": {
+              "name": "PHOENIX_FEATHER",
+              "level": "INFERIOR",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 761.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "81",
+          "artifact": {
+            "spec": {
+              "name": "SOUL_STONE_FRAGMENT",
+              "level": "INFERIOR",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 30.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "110",
+          "artifact": {
+            "spec": {
+              "name": "SOLAR_TITANIUM",
+              "level": "INFERIOR",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 29.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "121",
+          "artifact": {
+            "spec": {
+              "name": "LUNAR_STONE",
+              "level": "INFERIOR",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 56.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "123",
+          "artifact": {
+            "spec": {
+              "name": "TERRA_STONE",
+              "level": "INFERIOR",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 122.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "124",
+          "artifact": {
+            "spec": {
+              "name": "SOLAR_TITANIUM",
+              "level": "LESSER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 156.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "128",
+          "artifact": {
+            "spec": {
+              "name": "CLARITY_STONE_FRAGMENT",
+              "level": "INFERIOR",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 2359.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "130",
+          "artifact": {
+            "spec": {
+              "name": "QUANTUM_STONE",
+              "level": "INFERIOR",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 63.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "146",
+          "artifact": {
+            "spec": {
+              "name": "LUNAR_STONE",
+              "level": "LESSER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 304.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "177",
+          "artifact": {
+            "spec": {
+              "name": "TAU_CETI_GEODE",
+              "level": "INFERIOR",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 48.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "179",
+          "artifact": {
+            "spec": {
+              "name": "PUZZLE_CUBE",
+              "level": "LESSER",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICAkKexxvAIDA"
+        },
+        {
+          "itemId": "181",
+          "artifact": {
+            "spec": {
+              "name": "SHELL_STONE",
+              "level": "INFERIOR",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 44.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "187",
+          "artifact": {
+            "spec": {
+              "name": "PUZZLE_CUBE",
+              "level": "NORMAL",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 571.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "189",
+          "artifact": {
+            "spec": {
+              "name": "PHOENIX_FEATHER",
+              "level": "LESSER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1009.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "191",
+          "artifact": {
+            "spec": {
+              "name": "AURELIAN_BROOCH",
+              "level": "NORMAL",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 565.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "197",
+          "artifact": {
+            "spec": {
+              "name": "SOUL_STONE",
+              "level": "INFERIOR",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 134.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "206",
+          "artifact": {
+            "spec": {
+              "name": "QUANTUM_METRONOME",
+              "level": "LESSER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 719.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "236",
+          "artifact": {
+            "spec": {
+              "name": "TUNGSTEN_ANKH",
+              "level": "NORMAL",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1122.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "238",
+          "artifact": {
+            "spec": {
+              "name": "TAU_CETI_GEODE",
+              "level": "LESSER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 273.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "239",
+          "artifact": {
+            "spec": {
+              "name": "THE_CHALICE",
+              "level": "NORMAL",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 405.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "241",
+          "artifact": {
+            "spec": {
+              "name": "INTERSTELLAR_COMPASS",
+              "level": "NORMAL",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 389.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "242",
+          "artifact": {
+            "spec": {
+              "name": "MERCURYS_LENS",
+              "level": "NORMAL",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 222.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "243",
+          "artifact": {
+            "spec": {
+              "name": "BOOK_OF_BASAN",
+              "level": "INFERIOR",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 695.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "246",
+          "artifact": {
+            "spec": {
+              "name": "LIGHT_OF_EGGENDIL",
+              "level": "LESSER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 306.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "249",
+          "artifact": {
+            "spec": {
+              "name": "BEAK_OF_MIDAS",
+              "level": "NORMAL",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1207.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "250",
+          "artifact": {
+            "spec": {
+              "name": "CARVED_RAINSTICK",
+              "level": "NORMAL",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 655.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "253",
+          "artifact": {
+            "spec": {
+              "name": "DEMETERS_NECKLACE",
+              "level": "GREATER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 571.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "254",
+          "artifact": {
+            "spec": {
+              "name": "SHELL_STONE",
+              "level": "LESSER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 371.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "261",
+          "artifact": {
+            "spec": {
+              "name": "TITANIUM_ACTUATOR",
+              "level": "NORMAL",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 157.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "263",
+          "artifact": {
+            "spec": {
+              "name": "PHOENIX_FEATHER",
+              "level": "NORMAL",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 494.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "265",
+          "artifact": {
+            "spec": {
+              "name": "SOUL_STONE",
+              "level": "LESSER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 18.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "294",
+          "artifact": {
+            "spec": {
+              "name": "LIFE_STONE",
+              "level": "INFERIOR",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 8.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "305",
+          "artifact": {
+            "spec": {
+              "name": "CLARITY_STONE",
+              "level": "INFERIOR",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 198.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "313",
+          "artifact": {
+            "spec": {
+              "name": "THE_CHALICE",
+              "level": "GREATER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 63.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "341",
+          "artifact": {
+            "spec": {
+              "name": "MERCURYS_LENS",
+              "level": "LESSER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 619.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "358",
+          "artifact": {
+            "spec": {
+              "name": "ORNATE_GUSSET",
+              "level": "LESSER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 390.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "369",
+          "artifact": {
+            "spec": {
+              "name": "TUNGSTEN_ANKH",
+              "level": "GREATER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 117.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "370",
+          "artifact": {
+            "spec": {
+              "name": "DEMETERS_NECKLACE",
+              "level": "NORMAL",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "QUANTUM_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "QUANTUM_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICAkOfWn8gJDA"
+        },
+        {
+          "itemId": "372",
+          "artifact": {
+            "spec": {
+              "name": "PUZZLE_CUBE",
+              "level": "GREATER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 147.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "386",
+          "artifact": {
+            "spec": {
+              "name": "SHIP_IN_A_BOTTLE",
+              "level": "NORMAL",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 84.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "426",
+          "artifact": {
+            "spec": {
+              "name": "THE_CHALICE",
+              "level": "INFERIOR",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 358.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "440",
+          "artifact": {
+            "spec": {
+              "name": "AURELIAN_BROOCH",
+              "level": "NORMAL",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "LIFE_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "LIFE_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICAkO-znvMKDA"
+        },
+        {
+          "itemId": "458",
+          "artifact": {
+            "spec": {
+              "name": "TACHYON_DEFLECTOR",
+              "level": "NORMAL",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 25.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "461",
+          "artifact": {
+            "spec": {
+              "name": "LUNAR_STONE",
+              "level": "NORMAL",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 20.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "510",
+          "artifact": {
+            "spec": {
+              "name": "VIAL_MARTIAN_DUST",
+              "level": "GREATER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 34.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "549",
+          "artifact": {
+            "spec": {
+              "name": "INTERSTELLAR_COMPASS",
+              "level": "GREATER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 26.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "563",
+          "artifact": {
+            "spec": {
+              "name": "DEMETERS_NECKLACE",
+              "level": "GREATER",
+              "rarity": "LEGENDARY",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "TERRA_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "TERRA_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "PROPHECY_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA0LjNh8YJDA"
+        },
+        {
+          "itemId": "564",
+          "artifact": {
+            "spec": {
+              "name": "THE_CHALICE",
+              "level": "GREATER",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "LIFE_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "LIFE_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA0KSD0YUIDA"
+        },
+        {
+          "itemId": "594",
+          "artifact": {
+            "spec": {
+              "name": "CARVED_RAINSTICK",
+              "level": "GREATER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 9.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "609",
+          "artifact": {
+            "spec": {
+              "name": "DEMETERS_NECKLACE",
+              "level": "NORMAL",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "LIFE_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "LIFE_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA0Ozs14ULDA"
+        },
+        {
+          "itemId": "666",
+          "artifact": {
+            "spec": {
+              "name": "DEMETERS_NECKLACE",
+              "level": "NORMAL",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "LIFE_STONE",
+                "level": "LESSER",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "LIFE_STONE",
+                "level": "LESSER",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA0JynkqcIDA"
+        },
+        {
+          "itemId": "668",
+          "artifact": {
+            "spec": {
+              "name": "AURELIAN_BROOCH",
+              "level": "GREATER",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA0NzwzIsIDA"
+        },
+        {
+          "itemId": "675",
+          "artifact": {
+            "spec": {
+              "name": "NEODYMIUM_MEDALLION",
+              "level": "NORMAL",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "LIFE_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "LIFE_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA0MzPj4EIDA"
+        },
+        {
+          "itemId": "700",
+          "artifact": {
+            "spec": {
+              "name": "DILITHIUM_STONE_FRAGMENT",
+              "level": "INFERIOR",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 819.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "735",
+          "artifact": {
+            "spec": {
+              "name": "TUNGSTEN_ANKH",
+              "level": "NORMAL",
+              "rarity": "LEGENDARY",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "DILITHIUM_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "DILITHIUM_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "DILITHIUM_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA0Mqmj8gKDA"
+        },
+        {
+          "itemId": "742",
+          "artifact": {
+            "spec": {
+              "name": "ORNATE_GUSSET",
+              "level": "LESSER",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "QUANTUM_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "QUANTUM_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA0OrY6d8KDA"
+        },
+        {
+          "itemId": "748",
+          "artifact": {
+            "spec": {
+              "name": "AURELIAN_BROOCH",
+              "level": "NORMAL",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "LIFE_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "LIFE_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA0KrZuuYKDA"
+        },
+        {
+          "itemId": "752",
+          "artifact": {
+            "spec": {
+              "name": "CLARITY_STONE",
+              "level": "LESSER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 27.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "825",
+          "artifact": {
+            "spec": {
+              "name": "VIAL_MARTIAN_DUST",
+              "level": "GREATER",
+              "rarity": "LEGENDARY",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "SHELL_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "SHELL_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA0MryiIAKDA"
+        },
+        {
+          "itemId": "832",
+          "artifact": {
+            "spec": {
+              "name": "ORNATE_GUSSET",
+              "level": "LESSER",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "QUANTUM_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "QUANTUM_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA0Irk3IMLDA"
+        },
+        {
+          "itemId": "843",
+          "artifact": {
+            "spec": {
+              "name": "PHOENIX_FEATHER",
+              "level": "GREATER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 2.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "854",
+          "artifact": {
+            "spec": {
+              "name": "BEAK_OF_MIDAS",
+              "level": "GREATER",
+              "rarity": "RARE",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA0NbTpv4IDA"
+        },
+        {
+          "itemId": "866",
+          "artifact": {
+            "spec": {
+              "name": "DILITHIUM_MONOCLE",
+              "level": "GREATER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 7.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "868",
+          "artifact": {
+            "spec": {
+              "name": "ORNATE_GUSSET",
+              "level": "GREATER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 78.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "899",
+          "artifact": {
+            "spec": {
+              "name": "NEODYMIUM_MEDALLION",
+              "level": "GREATER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 539.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "902",
+          "artifact": {
+            "spec": {
+              "name": "DEMETERS_NECKLACE",
+              "level": "NORMAL",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 521.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "927",
+          "artifact": {
+            "spec": {
+              "name": "TERRA_STONE",
+              "level": "LESSER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 328.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "932",
+          "artifact": {
+            "spec": {
+              "name": "QUANTUM_METRONOME",
+              "level": "NORMAL",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "QUANTUM_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "QUANTUM_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA0Oas-dcKDA"
+        },
+        {
+          "itemId": "958",
+          "artifact": {
+            "spec": {
+              "name": "THE_CHALICE",
+              "level": "LESSER",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "TACHYON_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "TACHYON_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA0P6dzqwJDA"
+        },
+        {
+          "itemId": "1031",
+          "artifact": {
+            "spec": {
+              "name": "TUNGSTEN_ANKH",
+              "level": "GREATER",
+              "rarity": "RARE",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "SHELL_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA0InAm-kKDA"
+        },
+        {
+          "itemId": "1037",
+          "artifact": {
+            "spec": {
+              "name": "NEODYMIUM_MEDALLION",
+              "level": "NORMAL",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "LIFE_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "LIFE_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA0PGPsc0IDA"
+        },
+        {
+          "itemId": "1168",
+          "artifact": {
+            "spec": {
+              "name": "QUANTUM_METRONOME",
+              "level": "NORMAL",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "SHELL_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "SHELL_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA0I2bqMsJDA"
+        },
+        {
+          "itemId": "1188",
+          "artifact": {
+            "spec": {
+              "name": "NEODYMIUM_MEDALLION",
+              "level": "NORMAL",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "QUANTUM_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA0NWb8_oLDA"
+        },
+        {
+          "itemId": "1201",
+          "artifact": {
+            "spec": {
+              "name": "DEMETERS_NECKLACE",
+              "level": "NORMAL",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA0K2asL4KDA"
+        },
+        {
+          "itemId": "1284",
+          "artifact": {
+            "spec": {
+              "name": "QUANTUM_METRONOME",
+              "level": "NORMAL",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "TACHYON_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "QUANTUM_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA0J2j4vMJDA"
+        },
+        {
+          "itemId": "1315",
+          "artifact": {
+            "spec": {
+              "name": "MERCURYS_LENS",
+              "level": "GREATER",
+              "rarity": "RARE",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA0IP8-vkLDA"
+        },
+        {
+          "itemId": "1321",
+          "artifact": {
+            "spec": {
+              "name": "QUANTUM_STONE",
+              "level": "LESSER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 78.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "1322",
+          "artifact": {
+            "spec": {
+              "name": "TITANIUM_ACTUATOR",
+              "level": "GREATER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 8.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "1323",
+          "artifact": {
+            "spec": {
+              "name": "ORNATE_GUSSET",
+              "level": "NORMAL",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 570.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "1344",
+          "artifact": {
+            "spec": {
+              "name": "NEODYMIUM_MEDALLION",
+              "level": "GREATER",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "TERRA_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "TERRA_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA0IOymOALDA"
+        },
+        {
+          "itemId": "1389",
+          "artifact": {
+            "spec": {
+              "name": "PUZZLE_CUBE",
+              "level": "GREATER",
+              "rarity": "RARE",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "CLARITY_STONE",
+                "level": "LESSER",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA0MvinJwIDA"
+        },
+        {
+          "itemId": "1451",
+          "artifact": {
+            "spec": {
+              "name": "ORNATE_GUSSET",
+              "level": "GREATER",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "QUANTUM_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "QUANTUM_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA0OvR9pILDA"
+        },
+        {
+          "itemId": "1458",
+          "artifact": {
+            "spec": {
+              "name": "LIGHT_OF_EGGENDIL",
+              "level": "NORMAL",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 8.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "1472",
+          "artifact": {
+            "spec": {
+              "name": "TUNGSTEN_ANKH",
+              "level": "NORMAL",
+              "rarity": "LEGENDARY",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "SOUL_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "SOUL_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "PROPHECY_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA0Kuy4NAJDA"
+        },
+        {
+          "itemId": "1506",
+          "artifact": {
+            "spec": {
+              "name": "QUANTUM_METRONOME",
+              "level": "NORMAL",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA0PfO3tALDA"
+        },
+        {
+          "itemId": "1521",
+          "artifact": {
+            "spec": {
+              "name": "THE_CHALICE",
+              "level": "LESSER",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA0Jfdz4IKDA"
+        },
+        {
+          "itemId": "1538",
+          "artifact": {
+            "spec": {
+              "name": "PUZZLE_CUBE",
+              "level": "GREATER",
+              "rarity": "RARE",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "SHELL_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICAsLDHr8EJDA"
+        },
+        {
+          "itemId": "1645",
+          "artifact": {
+            "spec": {
+              "name": "PHOENIX_FEATHER",
+              "level": "GREATER",
+              "rarity": "RARE",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "PROPHECY_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICAsJb-2uQLDA"
+        },
+        {
+          "itemId": "1704",
+          "artifact": {
+            "spec": {
+              "name": "TUNGSTEN_ANKH",
+              "level": "GREATER",
+              "rarity": "RARE",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICAsOaRhpoJDA"
+        },
+        {
+          "itemId": "1809",
+          "artifact": {
+            "spec": {
+              "name": "TACHYON_DEFLECTOR",
+              "level": "NORMAL",
+              "rarity": "RARE",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "TACHYON_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICAsJHeu58IDA"
+        },
+        {
+          "itemId": "1810",
+          "artifact": {
+            "spec": {
+              "name": "MERCURYS_LENS",
+              "level": "GREATER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 16.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "1811",
+          "artifact": {
+            "spec": {
+              "name": "LIGHT_OF_EGGENDIL",
+              "level": "INFERIOR",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 435.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "1812",
+          "artifact": {
+            "spec": {
+              "name": "CARVED_RAINSTICK",
+              "level": "LESSER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 317.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "1813",
+          "artifact": {
+            "spec": {
+              "name": "NEODYMIUM_MEDALLION",
+              "level": "LESSER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 112.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "1814",
+          "artifact": {
+            "spec": {
+              "name": "VIAL_MARTIAN_DUST",
+              "level": "LESSER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 113.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "1818",
+          "artifact": {
+            "spec": {
+              "name": "QUANTUM_METRONOME",
+              "level": "INFERIOR",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 346.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "1819",
+          "artifact": {
+            "spec": {
+              "name": "TACHYON_DEFLECTOR",
+              "level": "INFERIOR",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 636.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "1828",
+          "artifact": {
+            "spec": {
+              "name": "VIAL_MARTIAN_DUST",
+              "level": "NORMAL",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 459.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "1838",
+          "artifact": {
+            "spec": {
+              "name": "THE_CHALICE",
+              "level": "LESSER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 299.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "1840",
+          "artifact": {
+            "spec": {
+              "name": "DEMETERS_NECKLACE",
+              "level": "GREATER",
+              "rarity": "LEGENDARY",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "DILITHIUM_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "DILITHIUM_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "DILITHIUM_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICAsJGDy74JDA"
+        },
+        {
+          "itemId": "1841",
+          "artifact": {
+            "spec": {
+              "name": "BEAK_OF_MIDAS",
+              "level": "LESSER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 217.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "1852",
+          "artifact": {
+            "spec": {
+              "name": "LIFE_STONE_FRAGMENT",
+              "level": "INFERIOR",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 13.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "1853",
+          "artifact": {
+            "spec": {
+              "name": "CARVED_RAINSTICK",
+              "level": "INFERIOR",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 22.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "1854",
+          "artifact": {
+            "spec": {
+              "name": "TERRA_STONE_FRAGMENT",
+              "level": "INFERIOR",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 90.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "1916",
+          "artifact": {
+            "spec": {
+              "name": "THE_CHALICE",
+              "level": "GREATER",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICAsOWSxvsIDA"
+        },
+        {
+          "itemId": "1956",
+          "artifact": {
+            "spec": {
+              "name": "ORNATE_GUSSET",
+              "level": "GREATER",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "QUANTUM_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "QUANTUM_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICAsOXBm_EKDA"
+        },
+        {
+          "itemId": "1965",
+          "artifact": {
+            "spec": {
+              "name": "ORNATE_GUSSET",
+              "level": "LESSER",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICAsJ2MiPUJDA"
+        },
+        {
+          "itemId": "1972",
+          "artifact": {
+            "spec": {
+              "name": "AURELIAN_BROOCH",
+              "level": "NORMAL",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "TACHYON_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "TACHYON_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICAsLXQ6tIKDA"
+        },
+        {
+          "itemId": "1998",
+          "artifact": {
+            "spec": {
+              "name": "QUANTUM_STONE_FRAGMENT",
+              "level": "INFERIOR",
+              "rarity": "COMMON",
+              "egg": "EDIBLE"
+            }
+          },
+          "quantity": 2128.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "2037",
+          "artifact": {
+            "spec": {
+              "name": "TACHYON_DEFLECTOR",
+              "level": "LESSER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 105.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "2045",
+          "artifact": {
+            "spec": {
+              "name": "QUANTUM_METRONOME",
+              "level": "NORMAL",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 74.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "2046",
+          "artifact": {
+            "spec": {
+              "name": "TUNGSTEN_ANKH",
+              "level": "LESSER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 12.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "2076",
+          "artifact": {
+            "spec": {
+              "name": "SHIP_IN_A_BOTTLE",
+              "level": "NORMAL",
+              "rarity": "RARE",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "TACHYON_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICAsJOIhvUKDA"
+        },
+        {
+          "itemId": "2081",
+          "artifact": {
+            "spec": {
+              "name": "THE_CHALICE",
+              "level": "LESSER",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICAsIPxt8YIDA"
+        },
+        {
+          "itemId": "2108",
+          "artifact": {
+            "spec": {
+              "name": "ORNATE_GUSSET",
+              "level": "LESSER",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICAsIvJ7uoJDA"
+        },
+        {
+          "itemId": "2122",
+          "artifact": {
+            "spec": {
+              "name": "AURELIAN_BROOCH",
+              "level": "NORMAL",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICAsIvH5_wLDA"
+        },
+        {
+          "itemId": "2135",
+          "artifact": {
+            "spec": {
+              "name": "LUNAR_TOTEM",
+              "level": "GREATER",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICAsKf44bsIDA"
+        },
+        {
+          "itemId": "2257",
+          "artifact": {
+            "spec": {
+              "name": "THE_CHALICE",
+              "level": "GREATER",
+              "rarity": "LEGENDARY",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "LIFE_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "LIFE_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "LIFE_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICAsN-fgtcLDA"
+        },
+        {
+          "itemId": "2290",
+          "artifact": {
+            "spec": {
+              "name": "SHELL_STONE",
+              "level": "NORMAL",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "2370",
+          "artifact": {
+            "spec": {
+              "name": "QUANTUM_METRONOME",
+              "level": "GREATER",
+              "rarity": "RARE",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "TACHYON_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA8Jzdj4AJDA"
+        },
+        {
+          "itemId": "2374",
+          "artifact": {
+            "spec": {
+              "name": "QUANTUM_METRONOME",
+              "level": "GREATER",
+              "rarity": "RARE",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "QUANTUM_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA8LzAwcEIDA"
+        },
+        {
+          "itemId": "2380",
+          "artifact": {
+            "spec": {
+              "name": "INTERSTELLAR_COMPASS",
+              "level": "GREATER",
+              "rarity": "RARE",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "TACHYON_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA8MyM570JDA"
+        },
+        {
+          "itemId": "2422",
+          "artifact": {
+            "spec": {
+              "name": "BOOK_OF_BASAN",
+              "level": "GREATER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "2465",
+          "artifact": {
+            "spec": {
+              "name": "LIGHT_OF_EGGENDIL",
+              "level": "LESSER",
+              "rarity": "RARE",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA8Nzt-qYKDA"
+        },
+        {
+          "itemId": "2483",
+          "artifact": {
+            "spec": {
+              "name": "PROPHECY_STONE",
+              "level": "LESSER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 4.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "2508",
+          "artifact": {
+            "spec": {
+              "name": "NEODYMIUM_MEDALLION",
+              "level": "NORMAL",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA8MroiLwLDA"
+        },
+        {
+          "itemId": "2559",
+          "artifact": {
+            "spec": {
+              "name": "TITANIUM_ACTUATOR",
+              "level": "NORMAL",
+              "rarity": "RARE",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA8NKfxroJDA"
+        },
+        {
+          "itemId": "2582",
+          "artifact": {
+            "spec": {
+              "name": "THE_CHALICE",
+              "level": "LESSER",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA8OqDsbQIDA"
+        },
+        {
+          "itemId": "2683",
+          "artifact": {
+            "spec": {
+              "name": "DEMETERS_NECKLACE",
+              "level": "GREATER",
+              "rarity": "LEGENDARY",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "TACHYON_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "TACHYON_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "TACHYON_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA8NatrPYKDA"
+        },
+        {
+          "itemId": "2700",
+          "artifact": {
+            "spec": {
+              "name": "LUNAR_TOTEM",
+              "level": "NORMAL",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 37.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "2701",
+          "artifact": {
+            "spec": {
+              "name": "LUNAR_TOTEM",
+              "level": "GREATER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 103.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "2706",
+          "artifact": {
+            "spec": {
+              "name": "INTERSTELLAR_COMPASS",
+              "level": "GREATER",
+              "rarity": "RARE",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "QUANTUM_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA8M7Nm44JDA"
+        },
+        {
+          "itemId": "2708",
+          "artifact": {
+            "spec": {
+              "name": "BEAK_OF_MIDAS",
+              "level": "GREATER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 16.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "2748",
+          "artifact": {
+            "spec": {
+              "name": "SHIP_IN_A_BOTTLE",
+              "level": "NORMAL",
+              "rarity": "RARE",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA8N7X_6MIDA"
+        },
+        {
+          "itemId": "2750",
+          "artifact": {
+            "spec": {
+              "name": "NEODYMIUM_MEDALLION",
+              "level": "GREATER",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA8J6Bh9oKDA"
+        },
+        {
+          "itemId": "2767",
+          "artifact": {
+            "spec": {
+              "name": "QUANTUM_STONE",
+              "level": "NORMAL",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "2776",
+          "artifact": {
+            "spec": {
+              "name": "LIGHT_OF_EGGENDIL",
+              "level": "NORMAL",
+              "rarity": "RARE",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA8LGH9bkIDA"
+        },
+        {
+          "itemId": "2797",
+          "artifact": {
+            "spec": {
+              "name": "TERRA_STONE",
+              "level": "NORMAL",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "2799",
+          "artifact": {
+            "spec": {
+              "name": "SHIP_IN_A_BOTTLE",
+              "level": "GREATER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "2804",
+          "artifact": {
+            "spec": {
+              "name": "INTERSTELLAR_COMPASS",
+              "level": "GREATER",
+              "rarity": "RARE",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "QUANTUM_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA8PG92KIKDA"
+        },
+        {
+          "itemId": "2808",
+          "artifact": {
+            "spec": {
+              "name": "TACHYON_DEFLECTOR",
+              "level": "NORMAL",
+              "rarity": "RARE",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "QUANTUM_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA8OGm3JMJDA"
+        },
+        {
+          "itemId": "2809",
+          "artifact": {
+            "spec": {
+              "name": "TACHYON_STONE_FRAGMENT",
+              "level": "INFERIOR",
+              "rarity": "COMMON",
+              "egg": "EDIBLE"
+            }
+          },
+          "quantity": 372.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "2811",
+          "artifact": {
+            "spec": {
+              "name": "TACHYON_STONE",
+              "level": "NORMAL",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 7.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "2859",
+          "artifact": {
+            "spec": {
+              "name": "TITANIUM_ACTUATOR",
+              "level": "LESSER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 54.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "2860",
+          "artifact": {
+            "spec": {
+              "name": "PROPHECY_STONE",
+              "level": "INFERIOR",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 13.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "2861",
+          "artifact": {
+            "spec": {
+              "name": "TITANIUM_ACTUATOR",
+              "level": "INFERIOR",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 45.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "2862",
+          "artifact": {
+            "spec": {
+              "name": "GOLD_METEORITE",
+              "level": "NORMAL",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 46.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "2866",
+          "artifact": {
+            "spec": {
+              "name": "SHIP_IN_A_BOTTLE",
+              "level": "INFERIOR",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 56.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "2869",
+          "artifact": {
+            "spec": {
+              "name": "INTERSTELLAR_COMPASS",
+              "level": "LESSER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 31.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "2870",
+          "artifact": {
+            "spec": {
+              "name": "NEODYMIUM_MEDALLION",
+              "level": "GREATER",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA8NGjj5cKDA"
+        },
+        {
+          "itemId": "2874",
+          "artifact": {
+            "spec": {
+              "name": "SHIP_IN_A_BOTTLE",
+              "level": "LESSER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 45.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "2880",
+          "artifact": {
+            "spec": {
+              "name": "AURELIAN_BROOCH",
+              "level": "GREATER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 26.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "2882",
+          "artifact": {
+            "spec": {
+              "name": "BOOK_OF_BASAN",
+              "level": "LESSER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 16.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "2883",
+          "artifact": {
+            "spec": {
+              "name": "TACHYON_STONE",
+              "level": "LESSER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 14.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "2885",
+          "artifact": {
+            "spec": {
+              "name": "TAU_CETI_GEODE",
+              "level": "NORMAL",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 8.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "2887",
+          "artifact": {
+            "spec": {
+              "name": "BOOK_OF_BASAN",
+              "level": "NORMAL",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 2.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "2889",
+          "artifact": {
+            "spec": {
+              "name": "SOLAR_TITANIUM",
+              "level": "NORMAL",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 16.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "2901",
+          "artifact": {
+            "spec": {
+              "name": "INTERSTELLAR_COMPASS",
+              "level": "INFERIOR",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 3.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "2919",
+          "artifact": {
+            "spec": {
+              "name": "VIAL_MARTIAN_DUST",
+              "level": "GREATER",
+              "rarity": "LEGENDARY",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA8OHCw_ALDA"
+        },
+        {
+          "itemId": "2933",
+          "artifact": {
+            "spec": {
+              "name": "TACHYON_DEFLECTOR",
+              "level": "NORMAL",
+              "rarity": "RARE",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "QUANTUM_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA8LHI6dELDA"
+        },
+        {
+          "itemId": "2943",
+          "artifact": {
+            "spec": {
+              "name": "AURELIAN_BROOCH",
+              "level": "GREATER",
+              "rarity": "LEGENDARY",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "DILITHIUM_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "DILITHIUM_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "DILITHIUM_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA8MnemqwLDA"
+        },
+        {
+          "itemId": "2969",
+          "artifact": {
+            "spec": {
+              "name": "SHELL_STONE_FRAGMENT",
+              "level": "INFERIOR",
+              "rarity": "COMMON",
+              "egg": "EDIBLE"
+            }
+          },
+          "quantity": 4.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "2973",
+          "artifact": {
+            "spec": {
+              "name": "DILITHIUM_MONOCLE",
+              "level": "INFERIOR",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 12.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "2976",
+          "artifact": {
+            "spec": {
+              "name": "DILITHIUM_MONOCLE",
+              "level": "LESSER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 19.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "2999",
+          "artifact": {
+            "spec": {
+              "name": "NEODYMIUM_MEDALLION",
+              "level": "GREATER",
+              "rarity": "LEGENDARY",
+              "egg": "UNKNOWN"
+            },
+            "stones": [
+              {
+                "name": "DILITHIUM_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "DILITHIUM_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              },
+              {
+                "name": "DILITHIUM_STONE",
+                "level": "NORMAL",
+                "rarity": "COMMON",
+                "egg": "UNKNOWN"
+              }
+            ]
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA8OnPupMLDA"
+        },
+        {
+          "itemId": "3000",
+          "artifact": {
+            "spec": {
+              "name": "TACHYON_DEFLECTOR",
+              "level": "NORMAL",
+              "rarity": "RARE",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA8KWii60JDA"
+        },
+        {
+          "itemId": "3005",
+          "artifact": {
+            "spec": {
+              "name": "NEODYMIUM_MEDALLION",
+              "level": "GREATER",
+              "rarity": "EPIC",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA8OnP1ZIIDA"
+        },
+        {
+          "itemId": "3006",
+          "artifact": {
+            "spec": {
+              "name": "NEODYMIUM_MEDALLION",
+              "level": "NORMAL",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 5.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "3008",
+          "artifact": {
+            "spec": {
+              "name": "VIAL_MARTIAN_DUST",
+              "level": "LESSER",
+              "rarity": "RARE",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1.0,
+          "serverId": "agxhdXhicmFpbmhvbWVyGwsSDkVJUmFyZUFydGlmYWN0GICA8OX4ufAIDA"
+        },
+        {
+          "itemId": "3010",
+          "artifact": {
+            "spec": {
+              "name": "DILITHIUM_MONOCLE",
+              "level": "NORMAL",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 2.0,
+          "serverId": ""
+        },
+        {
+          "itemId": "3023",
+          "artifact": {
+            "spec": {
+              "name": "LIFE_STONE",
+              "level": "LESSER",
+              "rarity": "COMMON",
+              "egg": "UNKNOWN"
+            }
+          },
+          "quantity": 1.0,
+          "serverId": ""
+        }
+      ]
+    }
+  }
+}
