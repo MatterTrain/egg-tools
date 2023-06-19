@@ -304,6 +304,9 @@ class FirstContactData():
             slots_to_fill += 2
             potential_candidates["Deflector"] = self.deflector_candidates
 
+        if len(excluded) < slots_to_fill:
+            excluded.add(self.find_new_excluded(excluded))
+
         candidate_groups = {}
 
         # TODO: Deal with duplicated code below 2
@@ -341,6 +344,23 @@ class FirstContactData():
 
         return tuple(list(self.test_combos(candidates, slots_to_fill, use_deflector, deflector_effect)) + [excluded])
 
+    def find_new_excluded(self, excluded):
+        # TODO: Find better criteria for this - perhaps the category of the
+        # first artifact in the other category?
+        other_names = []
+
+        for name in self.potential_candidates.keys():
+            if name not in excluded:
+                other_names.append(name)
+
+        longest_name = ""
+
+        for name in other_names:
+            if longest_name == "" or len(self.potential_candidates[name]) > len(self.potential_candidates[longest_name]):
+                longest_name = name
+
+        return longest_name
+
     def find_best_artifacts(self, has_pro_permit, use_deflector, deflector_effect):
         self.best_rate = 0
         self.best_combo = []
@@ -357,17 +377,24 @@ class FirstContactData():
         # excluded category, rather than all artifacts with the same name
 
         while redo:
+            last_best_rate = self.best_rate
             self.best_rate, self.best_combo, num_combos_checked, excluded = self.find_helper(
                 has_pro_permit, use_deflector, deflector_effect, excluded)
             self.num_combos_checked.append(num_combos_checked)
 
             redo = False
+            used_excluded = []
 
             for c in self.best_combo:
                 if c.name not in excluded:
                     redo = True
-                    excluded.append(c.name)
-                    break
+
+                used_excluded.append(c.name)
+
+            if self.best_rate <= last_best_rate:
+                redo = False
+
+            excluded = used_excluded
 
 
 class Artifact():
@@ -522,7 +549,8 @@ def optimize_coop_artifacts():
         print("\n")
 
     print(f"Total rate: {utils.format_number(best_total)} /hr")
-    print(f"Candidate combos checked: {utils.format_number(total_combos_checked)}")
+    print(
+        f"Candidate combos checked: {utils.format_number(total_combos_checked)}")
 
 
 if __name__ == "__main__":
@@ -536,8 +564,8 @@ if __name__ == "__main__":
             print(fcd.artifacts_db)
 
         fcd.find_candidates()
-        time_taken = round(timeit.timeit(lambda: fcd.find_best_artifacts(has_pro_permit=has_pro_permit, 
-                                                                         use_deflector=use_deflector, 
+        time_taken = round(timeit.timeit(lambda: fcd.find_best_artifacts(has_pro_permit=has_pro_permit,
+                                                                         use_deflector=use_deflector,
                                                                          deflector_effect=deflector_effect),
                                          number=num_iterations_single), 4)
 
