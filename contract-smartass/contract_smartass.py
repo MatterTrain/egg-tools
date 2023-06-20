@@ -26,7 +26,10 @@ num_iterations_single = 1  # higher = more accurate time estimate, but slower
 # for coop optimization only
 coop_size = 10
 num_iterations_coop = 1  # higher = more accurate time estimate, but slower
-consistent_results = False # True = consistent players / False = randomized players
+consistent_results = False  # True = consistent players / False = randomized players
+
+# list of players with data in artifact-data
+valid_usernames = ["inici0", "Maj_Oxion"]
 
 BASE_SHIPPING = 119134368896484.375 * 60
 BASE_LAYING = 5544 * 60 * 11340000000
@@ -206,6 +209,28 @@ class FirstContactData():
     def __create_tier(self, spec):
         return "T" + str(spec.level + 1) + ARTIFACT_RARITIES[spec.rarity]
 
+    def __find_minimal_artifact_groups(self, candidate_groups, group_name, candidate):
+        if not candidate_groups.get(group_name):
+            candidate_groups[group_name] = [candidate]
+        else:
+            add_candidate = True
+            worst_artifacts = set()
+
+            # keep only the best artifacts from each candidate group
+            for art in candidate_groups[group_name]:
+                if art.shipping_effect >= candidate.shipping_effect \
+                        and art.laying_effect >= candidate.laying_effect:
+                    add_candidate = False
+                elif art.shipping_effect <= candidate.shipping_effect \
+                        and art.laying_effect <= candidate.laying_effect:
+                    worst_artifacts.add(art)
+
+            if add_candidate:
+                for art in worst_artifacts:
+                    candidate_groups[group_name].remove(art)
+
+                candidate_groups[group_name].append(candidate)
+
     def download_FirstContactResponse(self):
         with open(f"../artifact-data/FirstContactResponse_{self.username}.json", "w") as json_file:
             json_file.write(json_format.MessageToJson(self.data))
@@ -233,34 +258,13 @@ class FirstContactData():
 
             if is_candidate:
                 candidate = Artifact(name, tier, stones)
-
-                # TODO: Deal with duplicated code below 1
-
-                if not self.potential_candidates.get(name):
-                    self.potential_candidates[name] = [candidate]
-                else:
-                    add_candidate = True
-                    worst_artifacts = set()
-
-                    # keep only the best artifacts from each candidate group
-                    for art in self.potential_candidates[name]:
-                        if art.shipping_effect >= candidate.shipping_effect \
-                                and art.laying_effect >= candidate.laying_effect:
-                            add_candidate = False
-                        elif art.shipping_effect <= candidate.shipping_effect \
-                                and art.laying_effect <= candidate.laying_effect:
-                            worst_artifacts.add(art)
-
-                    if add_candidate:
-                        for art in worst_artifacts:
-                            self.potential_candidates[name].remove(art)
-
-                        self.potential_candidates[name].append(candidate)
+                self.__find_minimal_artifact_groups(
+                    self.potential_candidates, name, candidate)
 
         self.deflector_candidates = self.potential_candidates.pop(
             "Deflector", [])
 
-    def test_combos(self, candidates, slots_to_fill, use_deflector, deflector_effect):
+    def __test_combos(self, candidates, slots_to_fill, use_deflector, deflector_effect):
         temp_combos = tuple(combinations(candidates, slots_to_fill))
         combos = []
         num_combos = 0
@@ -293,7 +297,7 @@ class FirstContactData():
 
         return best_rate, best_combo, num_combos
 
-    def find_helper(self, has_pro_permit, use_deflector, deflector_effect, excluded):
+    def __find_helper(self, has_pro_permit, use_deflector, deflector_effect, excluded):
         potential_candidates = self.potential_candidates.copy()
 
         slots_to_fill = 2 if has_pro_permit else 0
@@ -305,58 +309,44 @@ class FirstContactData():
             potential_candidates["Deflector"] = self.deflector_candidates
 
         if len(excluded) < slots_to_fill:
-            excluded.add(self.find_new_excluded(excluded))
+            excluded.add(self.__find_new_excluded(excluded))
 
-        candidate_groups = {}
+        for i in range(2):
+            candidate_groups = {}
 
-        # TODO: Deal with duplicated code below 2
+            for name in potential_candidates.keys():
+                if name in excluded:
+                    candidate_groups[name] = potential_candidates[name]
+                else:
+                    for candidate in potential_candidates[name]:
+                        self.__find_minimal_artifact_groups(
+                            candidate_groups, "other", candidate)
 
-        for name in potential_candidates.keys():
-            if name in excluded:
-                candidate_groups[name] = potential_candidates[name]
-            else:
-                for candidate in potential_candidates[name]:
-                    if not candidate_groups.get("other"):
-                        candidate_groups["other"] = [candidate]
-                    else:
-                        add_candidate = True
-                        worst_artifacts = set()
-
-                        # keep only the best artifacts from each candidate group
-                        for art in candidate_groups["other"]:
-                            if art.shipping_effect >= candidate.shipping_effect \
-                                    and art.laying_effect >= candidate.laying_effect:
-                                add_candidate = False
-                            elif art.shipping_effect <= candidate.shipping_effect \
-                                    and art.laying_effect <= candidate.laying_effect:
-                                worst_artifacts.add(art)
-
-                        if add_candidate:
-                            for art in worst_artifacts:
-                                candidate_groups["other"].remove(art)
-
-                            candidate_groups["other"].append(candidate)
+            # if len(excluded) < slots_to_fill:
+            #     if candidate_groups["other"][0].name == candidate_groups["other"][1].name:
+            #         excluded.add(candidate_groups["other"][0].name)
+            #     else:
+            #         excluded.add(self.__find_new_excluded(excluded))
 
         candidates = []
 
         for name in candidate_groups.keys():
             candidates.append(candidate_groups[name])
 
-        return tuple(list(self.test_combos(candidates, slots_to_fill, use_deflector, deflector_effect)) + [excluded])
+        return tuple(list(self.__test_combos(candidates, slots_to_fill, use_deflector, deflector_effect)) + [excluded])
 
-    def find_new_excluded(self, excluded):
-        # TODO: Find better criteria for this - perhaps the category of the
-        # first artifact in the other category?
+    def __find_new_excluded(self, excluded):
         other_names = []
 
         for name in self.potential_candidates.keys():
             if name not in excluded:
                 other_names.append(name)
 
-        longest_name = ""
+        # TODO: Is there a better criteria for choosing the new excluded name?
+        longest_name = other_names[0]
 
-        for name in other_names:
-            if longest_name == "" or len(self.potential_candidates[name]) > len(self.potential_candidates[longest_name]):
+        for name in other_names[1:]:
+            if len(self.potential_candidates[name]) > len(self.potential_candidates[longest_name]):
                 longest_name = name
 
         return longest_name
@@ -373,12 +363,9 @@ class FirstContactData():
 
         redo = True
 
-        # TODO: Only keep track of the artifact that was chosen from the
-        # excluded category, rather than all artifacts with the same name
-
         while redo:
             last_best_rate = self.best_rate
-            self.best_rate, self.best_combo, num_combos_checked, excluded = self.find_helper(
+            self.best_rate, self.best_combo, num_combos_checked, excluded = self.__find_helper(
                 has_pro_permit, use_deflector, deflector_effect, excluded)
             self.num_combos_checked.append(num_combos_checked)
 
@@ -480,8 +467,6 @@ def print_num_candidate_combos(fcd):
 
 
 def optimize_coop_artifacts():
-    valid_usernames = ["inici0", "Maj_Oxion"]
-
     fcds = []
 
     for i in range(coop_size):
@@ -501,6 +486,10 @@ def optimize_coop_artifacts():
     binary_strings = sorted(list(itertools.product(
         [1, 0], repeat=len(fcds))), key=lambda x: x.count(0))
     pointless_iterations = 0
+
+    # TODO: Test if swapping a deflector for another artifact ever changes
+    # the optimal artifacts for the other slots. If not, then reduce how many
+    # combos are checked accordingly.
 
     for options in binary_strings:
         pointless_iterations += 1
@@ -533,11 +522,11 @@ def optimize_coop_artifacts():
 
                     for fcd in fcds:
                         best_artifacts.append((fcd.username, fcd.best_combo))
-                
+
                 if not options[i]:
                     break
 
-        # TODO: Determine proper threshold based on size of binary_strings
+        # TODO: Determine proper threshold based on size of binary_strings.
         if pointless_iterations > 100:
             break
 
@@ -576,7 +565,7 @@ if __name__ == "__main__":
         print_num_candidate_combos(fcd)
         print(f"Time taken: {time_taken} s")
     else:
-        # TODO: Compare against brute force solution that doesn't stop early
-
-        print("Time taken: ", round(timeit.timeit(lambda: optimize_coop_artifacts(),
-                                                  number=num_iterations_coop), 4), "s")
+        # TODO: Compare against brute force solution with few optimizations to
+        # check accuracy.
+        print("Time taoken: ", round(timeit.timeit(lambda: optimize_coop_artifacts(),
+                                                   number=num_iterations_coop), 4), "s")
